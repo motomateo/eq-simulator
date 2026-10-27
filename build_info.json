@@ -1,10 +1,10 @@
 {
- "built_at": "2026-10-27T08:51:40+00:00",
+ "built_at": "2026-10-27T10:27:59+00:00",
  "source_repo": "motomateo/zzzjoculetzzz (private)",
- "source_commit": "6aa7c9c76a3f5c95580705e5181ad2f906176862",
- "source_dirty": true,
+ "source_commit": "73e6076e113ed311abed4f7933cab99f3e5701df",
+ "source_dirty": false,
  "files": 21,
- "bytes": 10964518,
+ "bytes": 10984342,
  "excluded": [
   "pipeline/",
   "data/ (contains building_uid)",

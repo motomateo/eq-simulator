@@ -1,14 +1,15 @@
 cff-version: 1.2.0
 message: "If you use this simulator, its parameters or derived data, please cite it as below."
 title: "eq_simulator — Bucharest earthquake simulator (Re:Rise)"
-abstract: "A bilingual web game module that simulates a Vrancea intermediate-depth earthquake in Bucharest: ground motion (H), vulnerability of the dupacutremur register and background stock (V), exposure of people, roads and emergency services (E), with explicit uncertainty (median and 10-90% band)."
+abstract: "A bilingual web game module that simulates a Vrancea intermediate-depth earthquake in Bucharest: ground motion (H), vulnerability of the dupacutremur register and background stock (V), exposure of people, roads and emergency services (E), with explicit uncertainty (median and 10-90% band). The risk engine is a standalone TypeScript library."
 authors:
   - family-names: Sumbasacu
     given-names: Matei
     alias: motomateo
 version: 0.1.0
-date-released: 2026-10-19
+date-released: 2026-10-27
 license: CC-BY-NC-SA-4.0
+url: "https://motomateo.github.io/eq-simulator/"
 keywords: [Vrancea earthquake, Bucharest, seismic risk, casualties, serious game, uncertainty]
 references:
   - type: dataset
@@ -42,3 +43,42 @@ references:
         given-names: Catalina
     year: 2023
     doi: 10.5281/zenodo.8117363
+  - type: dataset
+    title: "Global Vulnerability Model"
+    authors:
+      - family-names: Nafeh
+        given-names: Abdullah
+      - family-names: Aljawhari
+        given-names: Karim
+      - family-names: Silva
+        given-names: Vitor
+    year: 2025
+    doi: 10.5281/zenodo.8391742
+  - type: dataset
+    title: "Census grid 2021 (GEOSTAT)"
+    authors:
+      - name: "Eurostat"
+    year: 2026
+    url: "https://ec.europa.eu/eurostat/web/gisco/geodata/population-distribution/geostat"
+    notes: "CC BY 4.0; clipped and reprojected, Eurostat is not responsible for the modified data."
+  - type: dataset
+    title: "OpenStreetMap, Romania extract"
+    authors:
+      - name: "OpenStreetMap contributors"
+    year: 2026
+    url: "https://download.geofabrik.de/europe/romania.html"
+    notes: "ODbL 1.0; the derived road graph and facility layers stay ODbL."
+  - type: report
+    title: "Hazus Earthquake Model Technical Manual, Hazus 6.1"
+    authors:
+      - name: "Federal Emergency Management Agency"
+    year: 2024
+  - type: book
+    title: "Earthquake Protection"
+    authors:
+      - family-names: Coburn
+        given-names: Andrew
+      - family-names: Spence
+        given-names: Robin
+    year: 2002
+    edition: "2nd"
