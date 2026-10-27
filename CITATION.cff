@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this simulator, its parameters or derived data, please cite it as below."
+title: "eq_simulator — Bucharest earthquake simulator (Re:Rise)"
+abstract: "A bilingual web game module that simulates a Vrancea intermediate-depth earthquake in Bucharest: ground motion (H), vulnerability of the dupacutremur register and background stock (V), exposure of people, roads and emergency services (E), with explicit uncertainty (median and 10-90% band)."
+authors:
+  - family-names: Sumbasacu
+    given-names: Matei
+    alias: motomateo
+version: 0.1.0
+date-released: 2026-10-19
+license: CC-BY-NC-SA-4.0
+keywords: [Vrancea earthquake, Bucharest, seismic risk, casualties, serious game, uncertainty]
+references:
+  - type: dataset
+    title: "Harta clădirilor cu risc seismic (dupacutremur.ro)"
+    authors:
+      - name: "Re:Rise"
+    url: "https://harta.dupacutremur.ro"
+  - type: report
+    title: "European Seismic Risk Model (ESRM20)"
+    authors:
+      - family-names: Crowley
+        given-names: Helen
+    year: 2021
+    doi: 10.7414/EUC-EFEHR-TR002-ESRM20
+  - type: article
+    title: "Ground-motion models for Vrancea intermediate-depth earthquakes"
+    authors:
+      - family-names: Manea
+        given-names: Elena Florinela
+      - family-names: Cioflan
+        given-names: Carmen Ortanza
+      - family-names: Danciu
+        given-names: Laurentiu
+    journal: "Earthquake Spectra"
+    year: 2021
+    doi: 10.1177/87552930211032985
+  - type: dataset
+    title: "Global Exposure Model"
+    authors:
+      - family-names: Yepes-Estrada
+        given-names: Catalina
+    year: 2023
+    doi: 10.5281/zenodo.8117363

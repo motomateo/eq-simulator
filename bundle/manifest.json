@@ -1,0 +1,27 @@
+{
+  "bundle": "eqsim.bin",
+  "sha256": "b23dcbc08608a5ed3698acdc68432b3b68edef5db2013f33b5a6257319750c38",
+  "bytes": 4123148,
+  "gzipBytes": 1809647,
+  "version": 2,
+  "registerDate": "2026-10-17",
+  "display": {
+    "bundle": "eqsim-display.bin",
+    "sha256": "1ee125265ff82548fd032ff902bdb74984589dcb41cb5c5bf56d462fd8141e4a",
+    "bytes": 4731804,
+    "gzipBytes": 1691091
+  },
+  "sourceRuns": {
+    "s01_register_ingest": "0016",
+    "s02_boundary_grid": "0017",
+    "s03_osm_roads": "0068",
+    "s04_critical_facilities": "0069",
+    "s05_background_stock": "0020",
+    "s06_synthetic_support": "0021",
+    "s07_pack_bundle": "0091",
+    "s08_background_fragility": "0032",
+    "s09_flood_lacul_morii": "0090",
+    "s10_liquefaction_proxy": "0095"
+  },
+  "licence": "Data bundle: CC BY-NC-SA 4.0 (eq_simulator / Re:Rise; dupacutremur register; ESRM20 CC BY 4.0; Eurostat Census 2021 grid CC BY 4.0; PAAR București). OpenStreetMap-derived sections are ODbL 1.0, (c) OpenStreetMap contributors: osm/* (road graph), fs_* (fire stations), hosp_xy and school_xy (located with OSM names/addresses), syn_* (OSM building mask), flood_* / liq_* and the derived cell, edge, building and facility flags (Phase 7 layers built on OSM streets and rivers) — see LICENSE-DATA.md. The Phase 7 layers also derive from the Copernicus DEM GLO-30 (produced using Copernicus WorldDEM-30 (c) DLR e.V. 2010-2014 and (c) Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the European Union and ESA; all rights reserved), the PAAR Bucuresti Annex 7.3 street list and the Primaria Sector 6 dam-break map (outline only)."
+}
