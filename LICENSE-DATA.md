@@ -22,4 +22,8 @@ The road graph (the `osm` section of the packed bundle in `public/bundle/`) and 
 
 ## Phase 7 layers (experimental)
 
-The flood footprint (`flood_*`, `cell_flood_frac`, `osm/edge_flooded`, `fs_flooded`, `hosp_flooded`) and the liquefaction classes (`liq_*`, `cell_liq_frac`, `reg_liq`) are derived databases: OpenStreetMap streets and rivers (ODbL), the Copernicus DEM GLO-30 (Produced using Copernicus WorldDEM-30 (c) DLR e.V. 2010-2014 and (c) Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved.), the PAAR Bucuresti Annex 7.3 street list (public administrative document) and the outline of the Primaria Sector 6 dam-break map (reuse pending; the map itself is not redistributed). They are approximations and are labelled so in the application.
+The flood footprint (`flood_*`, `cell_flood_frac`, `osm/edge_flooded`, `fs_flooded`, `hosp_flooded`) and the liquefaction classes (`liq_*`, `cell_liq_frac`, `reg_liq`) are derived databases: OpenStreetMap streets and rivers (ODbL), the Copernicus DEM GLO-30 (Produced using Copernicus WorldDEM-30 (c) DLR e.V. 2010-2014 and (c) Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved.), the PAAR Bucuresti Annex 7.3 street list (public administrative document) and the outline of the Primaria Sector 6 dam-break map (reuse of the outline agreed by Primăria Sector 6 on 2026-10-29; the map itself is not redistributed). They are approximations and are labelled so in the application.
+
+## Brand assets (Phase 9)
+The Re:Rise logo (`brand/rerise-logo-*.png`, `rerise-mark.png`) and the visual identity applied in Phase 9 (colours, Montserrat, the poster shapes; from the Re:Rise design system) are the property of Asociația Re:Rise and are used here in Re:Rise's own product. They are not covered by the CC BY-NC-SA licence of the rest of this repository: reuse of the logo needs Re:Rise's permission.
+

@@ -6,7 +6,7 @@ Every direct dependency is listed here; `python scripts/check_licences.py` fails
 | component | version | licence | use |
 |---|---|---|---|
 | typescript | 6.0.3 | Apache-2.0 | compiler (dev) |
-| @fontsource-variable/work-sans | 5.3.0 | OFL-1.1 | source of the vendored Work Sans woff2 (dev; files copied to public/fonts/) |
+| @fontsource-variable/montserrat | 5.3.0 | OFL-1.1 | source of the vendored Montserrat woff2 (dev; files copied to public/fonts/; the Re:Rise brand face, D111) |
 | @types/geojson | 7946.0.16 | MIT | GeoJSON type declarations (dev) |
 | maplibre-gl | 6.15.0 | BSD-3-Clause | map rendering (**shipped**, bundled by Vite, no CDN) |
 | vite | 8.3.4 | MIT | bundler, dev server (dev) |
@@ -43,7 +43,7 @@ Every direct dependency is listed here; `python scripts/check_licences.py` fails
 
 ## Planned (added with their phase, in the same commit as their licence row)
 - MapLibre GL JS 6.15.0 (BSD-3-Clause, **shipped**, bundled from npm) — Phase 6.
-- Font: Work Sans variable (SIL OFL 1.1, **shipped**, `public/fonts/` latin + latin-ext, from @fontsource-variable/work-sans 5.3.0; Matei D087), placeholder until Re:Rise brand fonts. Mulish was removed.
+- Font: Montserrat variable (SIL OFL 1.1, **shipped**, `public/fonts/` latin + latin-ext, from @fontsource-variable/montserrat 5.3.0; the Re:Rise brand face, D111). Work Sans (the Phase 6 placeholder) and Bitter (vendored for the Phase 9 mockups, not chosen) were removed.
 
 ## Online services used at runtime (not redistributed)
 - Basemap vector tiles: OpenFreeMap (tiles.openfreemap.org, styles `dark` for the night theme and `positron` for the day theme; free, no key; data © OpenMapTiles, © OpenStreetMap contributors) — online only, attribution in the map control (D074). CARTO dropped: its tiles now require an API key (checked 2026-10-19).

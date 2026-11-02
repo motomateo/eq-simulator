@@ -6,8 +6,8 @@ authors:
   - family-names: Sumbasacu
     given-names: Matei
     alias: motomateo
-version: 0.1.0
-date-released: 2026-10-27
+version: 0.2.0
+date-released: 2026-11-01
 license: CC-BY-NC-SA-4.0
 url: "https://motomateo.github.io/eq-simulator/"
 keywords: [Vrancea earthquake, Bucharest, seismic risk, casualties, serious game, uncertainty]
